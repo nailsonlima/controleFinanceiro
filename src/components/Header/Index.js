@@ -1,15 +1,14 @@
-import React from 'react';
+import React from "react";
+import * as C from "./styles";
 
-import * as c from './styles'
-
-function Header(props) {
-    return (
-        <c.Container>
-            <c.Header>
-                <c.Title>Controle Financeiro</c.Title>
-            </c.Header>
-        </c.Container>
-    );
-}
+const Header = () => {
+  return (
+    <C.Container>
+      <C.Header>
+        <C.Title>Controle Financeiro</C.Title>
+      </C.Header>
+    </C.Container>
+  );
+};
 
 export default Header;
